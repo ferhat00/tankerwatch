@@ -1,0 +1,20 @@
+scraper:
+  interval_minutes: 15
+  min_delay_seconds: 60
+  max_retries: 3
+  use_playwright_fallback: true
+  raw_cache_dir: data/raw
+
+database:
+  path: data/tankerwatch.db
+
+app:
+  host: 0.0.0.0
+  port: 8050
+  debug: false
+  mapbox_style: open-street-map
+
+ports:
+  proximity_km: 10
+  min_stationary_readings: 3
+  stationary_speed_knots: 0.5

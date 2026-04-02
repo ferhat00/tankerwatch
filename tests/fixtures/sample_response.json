@@ -1,0 +1,68 @@
+[
+  {
+    "imo": "9234567",
+    "mmsi": "123456789",
+    "name": "PACIFIC GLORY",
+    "vessel_type": "VLCC",
+    "dwt": 298000,
+    "built_year": 2005,
+    "flag": "Panama",
+    "lat": 26.64,
+    "lon": 50.16,
+    "speed": 0.1,
+    "heading": 180,
+    "nav_status": "moored",
+    "destination": "FUJAIRAH",
+    "eta": "2024-05-01T06:00:00Z",
+    "draught": 21.5
+  },
+  {
+    "imo": "9345678",
+    "mmsi": "234567890",
+    "name": "ARCTIC BLAZE",
+    "vessel_type": "LNG carrier",
+    "dwt": 82000,
+    "built_year": 2012,
+    "flag": "Marshall Islands",
+    "lat": 25.93,
+    "lon": 51.57,
+    "speed": 14.2,
+    "heading": 270,
+    "nav_status": "underway",
+    "destination": "SODEGAURA",
+    "eta": "2024-05-10T14:00:00Z",
+    "draught": 11.0
+  },
+  {
+    "imo": "9456789",
+    "mmsi": "345678901",
+    "name": "NORD AFRAMAX",
+    "vessel_type": "aframax",
+    "dwt": 115000,
+    "built_year": 2008,
+    "flag": "Greece",
+    "lat": 51.94,
+    "lon": 4.14,
+    "speed": 3.5,
+    "heading": 90,
+    "nav_status": "anchored",
+    "destination": "ROTTERDAM",
+    "eta": null,
+    "draught": 14.2
+  },
+  {
+    "mmsi": "999888777",
+    "name": "NO IMO VESSEL",
+    "vessel_type": "MR",
+    "dwt": 47000,
+    "lat": 1.27,
+    "lon": 103.70,
+    "speed": 11.0,
+    "heading": 45,
+    "nav_status": "underway",
+    "destination": "SINGAPORE"
+  },
+  {
+    "note": "This record has no IMO and no MMSI and should be skipped"
+  }
+]
